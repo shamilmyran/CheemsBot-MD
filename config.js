@@ -22,7 +22,7 @@ global.APIKeys = {
 }
 
 //═══════[modification]════════\\
-global.owner = ['918590822912','6283839980451'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
+global.owner = ['918590822912',''] //owner number, u can put multiple owner number, within quotations and seperated by comma.
 global.pemilik = ['918590822912'] // owner number
 global.premium = ['916909137213'] //premium number
 global.pengguna = 'ᴍᴜɴᴀᴠɪʀ' //username
