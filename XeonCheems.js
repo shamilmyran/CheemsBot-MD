@@ -1209,13 +1209,13 @@ case 'antilink':
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    displayText: 'Instagram📍',
+                                    url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number👤',
-                                    phoneNumber: '+91 690-9137-213'
+                                    phoneNumber: '+91 859-0822-912'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1249,8 +1249,8 @@ case 'antilink':
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Script🔖',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    displayText: ''Instagram 🌝',
+                                    url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1536,7 +1536,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                             hydratedFooterText: `Playing To ${text}`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '🥬Video Source Link🥬',
+                                    displayText: '✨Video Source Link✨',
                                     url: `${anu.url}`
                                 }
                             }, {
@@ -2376,7 +2376,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                     break 
 case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
                 anu = `Hi ${pushname}
-Cheems Bot With You Forever!! 🐶🤚`
+ɪ'ᴍ ꜱᴛɪʟʟ ᴀʟɪᴠᴇ ʙʀᴏ 🤗`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -2386,13 +2386,13 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: ''Instagram',
+                                    url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    url: 'No Script '
                                 }
                             }, {
                                 quickReplyButton: {
