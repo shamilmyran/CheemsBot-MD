@@ -26,7 +26,7 @@ global.owner = ['918590822912',''] //owner number, u can put multiple owner numb
 global.pemilik = ['918590822912'] // owner number
 global.premium = ['916909137213'] //premium number
 global.pengguna = 'ᴍᴜɴᴀᴠɪʀ' //username
-global.botnma = 'MR Bot' //bot name
+global.botnma = 'MR BOT' //bot name
 global.ownernma = 'ᴍᴜɴᴀᴠɪʀ🥰' //owner name
 global.packname = 'MR Bot' //sticker package name
 global.author = 'ᴍᴜɴᴀᴠɪʀ' //sticker author name
@@ -41,7 +41,7 @@ global.mess = {
     group: 'Feature Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature in only for the bot number',
-    wait: 'wait loding...',
+    wait: 'Wait loding....',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
 global.limitawal = {
