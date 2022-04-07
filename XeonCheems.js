@@ -594,7 +594,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
             case 'sc': case 'script': {
-                reply('Script : No script\n \n\Owner: MUNAVIR 🤗\n ')
+                reply('Script : https://github.com/DGXeon/CheemsBot-MD\n Dont Forget To Give Star\n\nYoutube : https://youtu.be/imFIX-Wrt3s\n Dont Forget To Subscribe')
             }
             break
             case 'chat': {
@@ -782,7 +782,7 @@ Ciee Whats Going On💖👀`
                 if (!text) throw 'Enter the group link!'
                 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) throw 'Link Invalid!'
                 replay(mess.wait)
-                let result = args[0].split('https://chat')[1]
+                let result = args[0].split('https://chat.whatsapp.com/')[1]
                 await XeonBotInc.groupAcceptInvite(result).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
             }
             break
@@ -1209,13 +1209,13 @@ case 'antilink':
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Instagram📍',
-                                    url: 'http://instagram.com/_munavir._'
+                                    displayText: 'YouTube📍',
+                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number👤',
-                                    phoneNumber: '+91 859-0822-912'
+                                    phoneNumber: '+91 690-9137-213'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1249,8 +1249,8 @@ case 'antilink':
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: ''Instagram 🌝',
-                                    url: 'http://instagram.com/_munavir._'
+                                    displayText: 'Script🔖',
+                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1536,7 +1536,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                             hydratedFooterText: `Playing To ${text}`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '✨Video Source Link✨',
+                                    displayText: '🥬Video Source Link🥬',
                                     url: `${anu.url}`
                                 }
                             }, {
@@ -2376,7 +2376,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                     break 
 case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
                 anu = `Hi ${pushname}
-ɪ'ᴍ ꜱᴛɪʟʟ ᴀʟɪᴠᴇ ʙʀᴏ 🤗`
+Cheems Bot With You Forever!! 🐶🤚`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -2386,14 +2386,13 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'instagrm',
-					
-                                    url: 'http://instagram.com/_munavir._'
+                                    displayText: 'YouTube📍',
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'No Script '
+                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
                                 }
                             }, {
                                 quickReplyButton: {
