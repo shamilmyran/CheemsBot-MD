@@ -594,7 +594,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
             case 'sc': case 'script': {
-                reply('Script : https://github.com/DGXeon/CheemsBot-MD\n Dont Forget To Give Star\n\nYoutube : https://youtu.be/imFIX-Wrt3s\n Dont Forget To Subscribe')
+                reply('Script : No Script \n \n\nOwner : MUNAVIR 🤗\n ')
             }
             break
             case 'chat': {
@@ -1536,7 +1536,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                             hydratedFooterText: `Playing To ${text}`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '🥬Video Source Link🥬',
+                                    displayText: '🌝Video Source Link🌝',
                                     url: `${anu.url}`
                                 }
                             }, {
@@ -2376,7 +2376,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                     break 
 case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
                 anu = `Hi ${pushname}
-Cheems Bot With You Forever!! 🐶🤚`
+ɪ'ᴍ ꜱᴛɪʟʟ ᴀʟɪᴠᴇ ʙʀᴏ 🤗🤚`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -2391,8 +2391,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Script🔖',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                displayText: 'Instagram🔖',
+                                    url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
