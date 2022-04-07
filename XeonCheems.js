@@ -2386,7 +2386,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: ''Instagram',
+                                    displayText: 'instagrm',
+					
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
