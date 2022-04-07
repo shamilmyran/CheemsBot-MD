@@ -594,7 +594,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
             case 'sc': case 'script': {
-                reply('Script : 🚶🙂\n Dont Forget To Give Star\n\nInstagram : http://instagram.com/_munavir._\n Dont Forget To Follow')
+                reply('Script : https://github.com/DGXeon/CheemsBot-MD\n Dont Forget To Give Star\n\nYoutube : https://youtu.be/imFIX-Wrt3s\n Dont Forget To Subscribe')
             }
             break
             case 'chat': {
@@ -1209,13 +1209,13 @@ case 'antilink':
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ📍',
-                                    url: 'http://instagram.com/_munavir._'
+                                    displayText: 'YouTube📍',
+                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number👤',
-                                    phoneNumber: '+918590822912'
+                                    phoneNumber: '+91 690-9137-213'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1234,7 +1234,7 @@ case 'antilink':
                                 }
                             }]
                       fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
-                      let txt = `「 MR Bot Broadcast 」\n\n${text}`
+                      let txt = `「 Cheems Bot Broadcast 」\n\n${text}`
                       XeonBotInc.send5ButImg(i, txt, XeonBotInc.user.name, fatihgans, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1249,8 +1249,8 @@ case 'antilink':
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ🔖',
-                                    url: 'http://instagram.com/_munavir._'
+                                    displayText: 'Script🔖',
+                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1259,7 +1259,7 @@ case 'antilink':
                                 }
                             }]
                       fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
-                      let txt = `「 MR Bot Broadcast 」\n\n${text}`
+                      let txt = `「 Cheems Bot Broadcast 」\n\n${text}`
                       XeonBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 		}
 		reply('Broadcast Success')
@@ -1568,7 +1568,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
             case 'ytmp4': case 'ytvideo': {
                 let { ytv } = require('./lib/y2mate')
                 if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`
-                let quality = args[1] ? args[1] : '240p'
+                let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
                 if (media.filesize >= 999999) return reply('Video size is too big '+util.format(media))
                 XeonBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `⭔ Title : ${media.title}\n⭔ File Size : ${media.filesizeF}\n⭔ Url : ${isUrl(text)}\n⭔ Ext : MP3\n⭔ Resololution : ${args[1] || '360p'}` }, { quoted: m })
@@ -2171,7 +2171,7 @@ View list of message with ${prefix}listmsg`)
 				let buttons = [{
                                 urlButton: {
                                     displayText: 'Report Bug🐛',
-                                    url: 'https://wa.me/918590822912?text=hello+bro+i+found+a+bug+in+your+bot'
+                                    url: 'https://wa.me/916909137213?text=hello+bro+i+found+a+bug+in+your+bot'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2376,7 +2376,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                     break 
 case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
                 anu = `Hi ${pushname}
-MR Bot With You Forever!! 🌝🤚`
+Cheems Bot With You Forever!! 🐶🤚`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -2386,22 +2386,22 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ ✨',
-                                    url: 'http://instagram.com/_munavir._'
+                                    displayText: 'YouTube📍',
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'ᴏᴡɴᴇʀ🔖',
-                                    url: 'http://wa.me/918590822912?text=ʜɪ'
+                                displayText: 'Script🔖',
+                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '📛All Menu📛',
+                                    displayText: '🍇All Menu🍇',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🤗List Menu🤗',
+                                    displayText: '🍒List Menu🍒',
                                     id: `${prefix}command`
                                 }
                                 }, {
@@ -2446,22 +2446,22 @@ Please Select Button Below
 `,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ📍',
-                                    url: 'http://instagram.com/_munavir._'
+                                    displayText: 'YouTube📍',
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: hello👋
+                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '📛All Menu📛',
+                                    displayText: '🍇All Menu🍇',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🤗List Menu🤗',
+                                    displayText: '🍒List Menu🍒',
                                     id: `${prefix}command`
                                 }
                                 }, {
@@ -2482,7 +2482,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Menu\n\n`,
                     buttonText: "Menu",
-                    footerText: "_MR Bot_",
+                    footerText: "_Cheems Bot-MD_",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Group Features",
@@ -2613,11 +2613,11 @@ case 'grupmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR Bot`,
+                            hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ✨',
-                                    url: 'http://instagram.com/_munavir._'
+                                    displayText: 'YouTube📍',
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2655,11 +2655,11 @@ case 'downloadmenu': {
                             hydratedContentText: okemenu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR Bot`,
+                            hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'ᴏᴡɴᴇʀ📍',
-                                    url: 'https://wa.me/+918590822912'
+                                    displayText: 'YouTube📍',
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2695,8 +2695,8 @@ case 'downloadmenu': {
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'ᴏᴡɴᴇʀ📍',
-                                    url: 'https://wa.me/+918590822912'
+                                    displayText: 'YouTube📍',
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3125,7 +3125,7 @@ break
   	anu = `
   *All Menu*
   
-  ꪶ🤗Group Menu🤗
+  ꪶ🐕Group Menu🐕ꫂ
   ➙ ${prefix}grouplink
   ➙ ${prefix}ephemeral [option]
   ➙ ${prefix}setgrouppp
@@ -3138,7 +3138,7 @@ break
   ➙ ${prefix}promote @user
   ➙ ${prefix}demote @user
   
-  ꪶDownload Menuꫂ
+  ꪶ🐕Download Menu🐕ꫂ
   ➙ ${prefix}tiktoknowm [url]
   ➙ ${prefix}tiktokwm [url]
   ➙ ${prefix}tiktokmp3 [url]
@@ -3153,7 +3153,7 @@ break
   ➙ ${prefix}getmusic [query]
   ➙ ${prefix}getvideo [query
   
-  ꪶSearch Menꫂ
+  ꪶ🐕Search Menu🐕ꫂ
   ➙ ${prefix}play [query]
   ➙ ${prefix}yts [query]
   ➙ ${prefix}google [query]
@@ -3163,16 +3163,16 @@ break
   ➙ ${prefix}wikimedia [query]
   ➙ ${prefix}ytsearch [query]
   
-  Random Menuꫂ
+  ꪶ🐕Random Menu🐕ꫂ
   ➙ ${prefix}coffee
   ➙ ${prefix}couplepp
   
-  ꪶFun Menuꫂ
+  ꪶ🐕Fun Menu🐕ꫂ
   ➙ ${prefix}couple
   ➙ ${prefix}mysoulmate
   ➙ ${prefix}math [mode]  
   
-  ꪶVoice Changer Menuꫂ
+  ꪶ🐕Voice Changer Menu🐕ꫂ
   ➙ ${prefix}bass
   ➙ ${prefix}blown
   ➙ ${prefix}deep
@@ -3185,8 +3185,7 @@ break
   ➙ ${prefix}slow
   ➙ ${prefix}squirrel
    
-  
-    Convert Menuꫂ
+  ꪶ🐕Convert Menu🐕ꫂ
   ➙ ${prefix}toimage
   ➙ ${prefix}removebg
   ➙ ${prefix}sticker
@@ -3197,7 +3196,7 @@ break
   ➙ ${prefix}ebinary
   ➙ ${prefix}dbinary
   
-  ꪶ Misc Menuꫂ
+  ꪶ🐕Misc Menu🐕ꫂ
   ➙ ${prefix}ping
   ➙ ${prefix}owner
   ➙ ${prefix}donate
@@ -3210,7 +3209,7 @@ break
   ➙ ${prefix}listonline
   ➙ ${prefix}report (report bug to owner)
   
-  ꪶDatabase Menuꫂ
+  ꪶ🐕Database Menu🐕ꫂ
   ➙ ${prefix}setcmd
   ➙ ${prefix}listcmd
   ➙ ${prefix}delcmd
@@ -3220,17 +3219,17 @@ break
   ➙ ${prefix}getmsg
   ➙ ${prefix}delmsg
   
-  ꪶAnonymous Menuꫂ
+  ꪶ🐕Anonymous Menu🐕ꫂ
   ➙ ${prefix}start ( Start Chat )
   ➙ ${prefix}next ( Next user )
   ➙ ${prefix}stop ( stop Anonymous chat )
   
-  ꪶSystem Menuꫂ
+  ꪶ🐕System Menu🐕ꫂ
   ➙ ${prefix}antilink On/Off
   ➙ ${prefix}mute On/Off
   ➙ ${prefix}antiwame On/Off
   
-  ꪶOwner Menu🤗ꫂ
+  ꪶ🐕Owner Menu🐕ꫂ
   ➙ ${prefix}chat [option]
   ➙ ${prefix}join [link]
   ➙ ${prefix}leave
@@ -3245,11 +3244,11 @@ break
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR Bot`,
+                            hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'ᴏᴡɴᴇʀ📍',
-                                    url: 'http://wa.me/918590822912?text=ʜɪ'
+                                    displayText: 'YouTube📍',
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
