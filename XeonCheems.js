@@ -782,7 +782,7 @@ Ciee Whats Going On💖👀`
                 if (!text) throw 'Enter the group link!'
                 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) throw 'Link Invalid!'
                 replay(mess.wait)
-                let result = args[0].split('https://chat.whatsapp.com/')[1]
+                let result = args[0].split('https://chat')[1]
                 await XeonBotInc.groupAcceptInvite(result).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
             }
             break
