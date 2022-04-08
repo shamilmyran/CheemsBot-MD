@@ -2452,7 +2452,7 @@ Please Select Button Below
                             }, {
                             	urlButton: {
                                 displayText: 'Script🌝',
-                                    url: 'ᴺᴼ ｓｃｒｉｐｔ🚶
+                                    url: 'ᴺᴼ ｓｃｒｉｐｔ🚶'
                                 }
                             }, {
                                 quickReplyButton: {
