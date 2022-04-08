@@ -2451,17 +2451,17 @@ Please Select Button Below
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Script🔖',
-                                    url: 'ᴺᴼ ｓｃｒｉｐｔ'
+                                displayText: 'Script🌝',
+                                    url: 'ᴺᴼ ｓｃｒｉｐｔ🚶
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: '✨All Menu✨',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: '😊List Menu😊',
                                     id: `${prefix}command`
                                 }
                                 }, {
@@ -2482,7 +2482,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Menu\n\n`,
                     buttonText: "Menu",
-                    footerText: "_Cheems Bot-MD_",
+                    footerText: "_MR ʙᴏᴛ😈_",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Group Features",
