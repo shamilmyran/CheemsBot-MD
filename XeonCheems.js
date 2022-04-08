@@ -1200,7 +1200,7 @@ case 'antilink':
             break
             case 'bcgc': case 'bcgroup': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} hello guys, am back`
+                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} hello guys,ᴍᴜɴᴀᴠɪʀ back`
                 let getGroups = await XeonBotInc.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
@@ -1209,13 +1209,13 @@ case 'antilink':
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    displayText: 'Instagram💢',
+                                    url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number👤',
-                                    phoneNumber: '+91 690-9137-213'
+                                    phoneNumber: '+91 859-0822-912'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1234,7 +1234,7 @@ case 'antilink':
                                 }
                             }]
                       fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
-                      let txt = `「 Cheems Bot Broadcast 」\n\n${text}`
+                      let txt = `「 MR ʙᴏᴛ ʙʀᴏᴀᴅᴄᴀꜱᴛ 」\n\n${text}`
                       XeonBotInc.send5ButImg(i, txt, XeonBotInc.user.name, fatihgans, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1249,8 +1249,8 @@ case 'antilink':
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Script🔖',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    displayText: 'Instagram💢',
+                                    url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1259,7 +1259,7 @@ case 'antilink':
                                 }
                             }]
                       fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
-                      let txt = `「 MR Bot Broadcast 」\n\n${text}`
+                      let txt = `「 MR ʙᴏᴛ ʙʀᴏᴀᴅᴄᴀꜱᴛ 」\n\n${text}`
                       XeonBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 		}
 		reply('Broadcast Success')
