@@ -8,7 +8,7 @@ Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://
 </p>
 
 <p align="center">
-<a href="https://youtu.be/imFIX-Wrt3s"><img title="Size" src="https://img.shields.io/badge/Tutorial-Video-green"></a>
+<a href="http://instagram.com/_munavir._"><img title="Size" src="https://img.shields.io/badge/Tutorial-Video-green"></a>
 </p>
 
 ------
@@ -32,13 +32,13 @@ Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://
 ## ```Connect With Me```
 <p align="center">
 <a href="https://wa.me/916909137213"><img src="https://img.shields.io/badge/Contact Xeon-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A"><img src="https://img.shields.io/badge/Subscribe Xeon-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
+<a href="https://chat"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://instagram.com/_munavir._"><img src="https://img.shields.io/badge/ Xeon-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/XXX" /><br>
 </p>
 
 ## ```Donate Me```
 
-- [`FamPay`](https://telegra.ph/file/69933531032d509ff9e54.jpg)
+- [`FamPay`](https://telegra.ph/file/.jpg)
 
 <p align="left">
 Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe and FamPay.
@@ -46,8 +46,8 @@ Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe 
 
 ## ```Bot Support Groups```
 
-- [`1st GC`]
-- [`2nd GC`]
+- [`1st `]
+- [`2nd C`]
 
 # Setup For Deployment 👇
 
