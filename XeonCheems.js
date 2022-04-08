@@ -3127,9 +3127,9 @@ break
 break
   case 'allmenu': {
   	anu = `
-  *All Menu*
+  *ᴀʟʟ ᴍᴇɴᴜ*
   
-   🌝ɢʀᴏᴜᴩ ᴍᴇɴᴜ🌝
+    ɢʀᴏᴜᴩ ᴍᴇɴᴜ
   ➙ ${prefix}grouplink
   ➙ ${prefix}ephemeral [option]
   ➙ ${prefix}setgrouppp
@@ -3142,7 +3142,7 @@ break
   ➙ ${prefix}promote @user
   ➙ ${prefix}demote @user
   
-   🌝ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ🌝
+    ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ
   ➙ ${prefix}tiktoknowm [url]
   ➙ ${prefix}tiktokwm [url]
   ➙ ${prefix}tiktokmp3 [url]
@@ -3157,7 +3157,7 @@ break
   ➙ ${prefix}getmusic [query]
   ➙ ${prefix}getvideo [query
   
-   🌝ꜱᴇᴀʀᴄʜ ᴍᴇɴᴜ🌝
+    ꜱᴇᴀʀᴄʜ ᴍᴇɴᴜ
   ➙ ${prefix}play [query]
   ➙ ${prefix}yts [query]
   ➙ ${prefix}google [query]
@@ -3167,16 +3167,16 @@ break
   ➙ ${prefix}wikimedia [query]
   ➙ ${prefix}ytsearch [query]
   
-   🌝ʀᴀɴᴅᴏᴍ ᴍᴜɴᴀᴠɪʀ🌝
+    ʀᴀɴᴅᴏᴍ ᴍᴇɴᴜ
   ➙ ${prefix}coffee
   ➙ ${prefix}couplepp
   
-   🌝ꜰᴜɴ ᴍᴇɴᴜ🌝
+    ꜰᴜɴ ᴍᴇɴᴜ
   ➙ ${prefix}couple
   ➙ ${prefix}mysoulmate
   ➙ ${prefix}math [mode]  
   
-   🌝 ᴠᴏɪᴄᴇ ᴄʜᴀɴɢᴇʀ ᴍᴇɴᴜ🌝
+     ᴠᴏɪᴄᴇ ᴄʜᴀɴɢᴇʀ ᴍᴇɴᴜ
   ➙ ${prefix}bass
   ➙ ${prefix}blown
   ➙ ${prefix}deep
@@ -3189,7 +3189,7 @@ break
   ➙ ${prefix}slow
   ➙ ${prefix}squirrel
    
-   🌝ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ🌝
+    ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ
   ➙ ${prefix}toimage
   ➙ ${prefix}removebg
   ➙ ${prefix}sticker
@@ -3200,7 +3200,7 @@ break
   ➙ ${prefix}ebinary
   ➙ ${prefix}dbinary
   
-   🌝ᴍɪꜱᴄ ᴍᴇɴᴜ🌝
+    ᴍɪꜱᴄ ᴍᴇɴᴜ
   ➙ ${prefix}ping
   ➙ ${prefix}owner
   ➙ ${prefix}donate
@@ -3213,7 +3213,7 @@ break
   ➙ ${prefix}listonline
   ➙ ${prefix}report (report bug to owner)
   
-   🌝ᴅᴀᴛᴀʙᴀꜱᴇ ᴍᴇɴᴜ🌝
+    ᴅᴀᴛᴀʙᴀꜱᴇ ᴍᴇɴᴜ
   ➙ ${prefix}setcmd
   ➙ ${prefix}listcmd
   ➙ ${prefix}delcmd
@@ -3223,17 +3223,17 @@ break
   ➙ ${prefix}getmsg
   ➙ ${prefix}delmsg
   
-   🌝ᴀɴᴏɴyᴍᴏᴜꜱ ᴍᴇɴᴜ🌝
+    ᴀɴᴏɴyᴍᴏᴜꜱ ᴍᴇɴᴜ
   ➙ ${prefix}start ( Start Chat )
   ➙ ${prefix}next ( Next user )
   ➙ ${prefix}stop ( stop Anonymous chat )
   
-   🌝ꜱyꜱᴛᴇᴍ ᴍᴇɴᴜ🌝
+    ꜱyꜱᴛᴇᴍ ᴍᴇɴᴜ
   ➙ ${prefix}antilink On/Off
   ➙ ${prefix}mute On/Off
   ➙ ${prefix}antiwame On/Off
   
-   🌝ᴏᴡɴᴇʀ ᴍᴇɴᴜ🌝
+    ᴏᴡɴᴇʀ ᴍᴇɴᴜ
   ➙ ${prefix}chat [option]
   ➙ ${prefix}join [link]
   ➙ ${prefix}leave
@@ -3267,11 +3267,11 @@ break
             }
 break
 case 'tqtt': 
-reply(`Thanks to
-LORD BUDDHA
-Xeon (Me)
-My family
-And all friends who helped assemble this sexy script !!!`)
+reply(`MR ʙᴏᴛ 😈
+ᴍᴜɴᴀᴠɪʀ ᴏᴡɴᴇʀ 🤗
+ http://wa.me/918590822912 ✨   
+
+MR ʙᴏᴛ 😈 !!!`)
 break
             default:
                 if (budy.startsWith('=>')) {
