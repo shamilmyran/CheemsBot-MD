@@ -41,7 +41,7 @@ global.mess = {
     group: 'Feature Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature in only for the bot number',
-    wait: 'ᴡᴀɪᴛ ʟᴏᴅɪɴɢ....',
+    wait: 'ᴡᴀɪᴛ ʟᴏᴀᴅɪɴɢ....',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
 global.limitawal = {
