@@ -2431,7 +2431,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 ʜᴇʟʟᴏ ʜᴏᴡ ᴀʀᴇ yᴏᴜ 😉
 
 
-❏「 INFO BOT 」
+❏「 MR ʙᴏᴛ INFO 」
 
 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
@@ -2613,11 +2613,11 @@ case 'grupmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `MR ʙᴏᴛ`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Instagram📍',
+                                    url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2655,11 +2655,11 @@ case 'downloadmenu': {
                             hydratedContentText: okemenu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `MR Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Instagram📍',
+                                    url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2692,11 +2692,12 @@ case 'downloadmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `MR Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Instagram📍',
+                                    url: 'http://instagram.com/_munavir._'
+					
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2723,11 +2724,11 @@ case 'randommenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `MR ʙᴏᴛ`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Instagram📍',
+                                    url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2755,11 +2756,11 @@ case 'funmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `MR ʙᴏᴛ`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Instagram📍',
+                                    url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2795,11 +2796,14 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `MR ʙᴏᴛ`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Instagram📍',
+                                    url: 'http://instagram.com/_munavir._'
+					
+					
+					
                                 }
                             }, {
                                 quickReplyButton: {
