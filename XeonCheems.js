@@ -2431,7 +2431,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 𝑯𝒆𝒍𝒍𝒐 𝒉𝒐𝒘 𝒂𝒓𝒆 𝒚𝒐𝒖 😉
 
 
-❏「𝑩𝑶𝑻_𝐈𝐍𝐅𝐎」
+❏「 INFO BOT 」
 
 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
