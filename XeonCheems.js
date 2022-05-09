@@ -2375,15 +2375,15 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                     }
                     break 
 case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
-                anu = `Hi ${pushname}
-ɪ'ᴍ ꜱᴛɪʟʟ ᴀʟɪᴠᴇ ʙʀᴏ 🤗🤚`
+                anu = `𝑯𝒆𝒍𝒍𝒐  ${pushname}
+𝑴𝑹 𝑩𝑶𝑻 𝑯𝑬𝑹𝑬 🤗🤚`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ`,
+                            hydratedFooterText: `𝑴𝑹 𝑩𝑶𝑻`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Owner📍',
@@ -2396,12 +2396,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✨All Menu✨',
+                                    displayText: '💫All Menu💫',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🌝List Menu🌝',
+                                    displayText: '🍻List Menu🍻',
                                     id: `${prefix}command`
                                 }
                                 }, {
@@ -2427,11 +2427,11 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Hi 🤚 ${pushname}
-ʜᴇʟʟᴏ ʜᴏᴡ ᴀʀᴇ yᴏᴜ 😉
+                            hydratedFooterText: `𝑯𝒆𝒍𝒍𝒐🤚 ${pushname}
+𝑯𝒆𝒍𝒍𝒐 𝒉𝒐𝒘 𝒂𝒓𝒆 𝒚𝒐𝒖 😉
 
 
-❏「 MR ʙᴏᴛ INFO 」
+❏「 𝑴𝑹 𝑩𝑶𝑻 𝐈𝐍𝐅𝐎 」
 
 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
@@ -2451,8 +2451,8 @@ Please Select Button Below
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Script🌝',
-                                    url: 'ᴺᴼ ｓｃｒｉｐｔ🚶'
+                                displayText: 'Script🖇️',
+                                    url: 'http://wa.me/918590822912'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2479,10 +2479,10 @@ break
 case 'command':{
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `Hi ${pushname}`,
-                    description: `Please Choose The Menu\n\n`,
+                    title: `𝑯𝒆𝒍𝒍𝒐  ${pushname}`,
+                    description: `𝑷𝒍𝒆𝒂𝒔𝒆 𝑪𝒉𝒐𝒐𝒔𝒆 𝑻𝒉𝒆 𝑴𝒆𝒏𝒖\n\n`,
                     buttonText: "Menu",
-                    footerText: "_MR ʙᴏᴛ😈_",
+                    footerText: "_𝑴𝑹 𝑩𝑶𝑻😈_",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Group Features",
@@ -3127,7 +3127,7 @@ break
 break
   case 'allmenu': {
   	anu = `
-  *ᴀʟʟ ᴍᴇɴᴜ*
+  *𝑨𝒍𝒍 𝒎𝒆𝒏𝒖*
   
     ɢʀᴏᴜᴩ ᴍᴇɴᴜ
   ➙ ${prefix}grouplink
@@ -3267,11 +3267,11 @@ break
             }
 break
 case 'tqtt': 
-reply(`MR ʙᴏᴛ 😈
-ᴍᴜɴᴀᴠɪʀ ᴏᴡɴᴇʀ 🤗
+reply(`𝑴𝑹 𝑩𝑶𝑻😈
+𝑴𝒖𝒏𝒂𝒗𝒊𝒓 🤗
  http://wa.me/918590822912 ✨   
 
-MR ʙᴏᴛ 😈 !!!`)
+𝑴𝑹 𝑩𝑶𝑻 ᳀ !!!`)
 break
             default:
                 if (budy.startsWith('=>')) {
