@@ -100,7 +100,7 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 	
 //[target]\\
 	const reply = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` MR ʙᴏᴛ`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "http://instagram.com/_munavir._"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` 𝑴𝑹 𝑩𝑶𝑻`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "http://instagram.com/_munavir._"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
@@ -594,7 +594,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
             case 'sc': case 'script': {
-                reply('Script : No Script \n \n\nOwner : MUNAVIR 🤗\n ')
+                reply('Script : 𝐁𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭 𝐧𝐨𝐭 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞  \n \n\n :  \n ')
             }
             break
             case 'chat': {
@@ -2431,7 +2431,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 𝑯𝒆𝒍𝒍𝒐 𝒉𝒐𝒘 𝒂𝒓𝒆 𝒚𝒐𝒖 😉
 
 
-❏「 𝑴𝑹 𝑩𝑶𝑻 𝐈𝐍𝐅𝐎 」
+❏「𝑩𝑶𝑻_𝐈𝐍𝐅𝐎」
 
 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
@@ -2442,7 +2442,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 
 
-Please Select Button Below
+𝑷𝒍𝒆𝒂𝒔𝒆 𝑺𝒆𝒍𝒆𝒄𝒕 𝑩𝒖𝒕𝒕𝒐𝒏 𝑩𝒆𝒍𝒐𝒘
 `,
                             hydratedButtons: [{
                                 urlButton: {
