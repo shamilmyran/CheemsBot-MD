@@ -886,7 +886,7 @@ break
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
-let teks = `══✪〘 *👥 Tag All* 〙✪══
+let teks = `══✪〘 *👥 𝑻𝒂𝒈 𝑨𝒍𝒍 🍻* 〙✪══
  
  ➲ *Message : ${q ? q : 'blank'}*\n\n`
                 for (let mem of participants) {
@@ -1209,7 +1209,7 @@ case 'antilink':
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Instagram💢',
+                                    displayText: 'Instagram🍻',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
@@ -1234,7 +1234,7 @@ case 'antilink':
                                 }
                             }]
                       fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
-                      let txt = `「 MR ʙᴏᴛ ʙʀᴏᴀᴅᴄᴀꜱᴛ 」\n\n${text}`
+                      let txt = `「 𝑴𝑹 𝑩𝑶𝑻 𝑩𝑹𝑶𝑨𝑫𝑪𝑨𝑺𝑻  」\n\n${text}`
                       XeonBotInc.send5ButImg(i, txt, XeonBotInc.user.name, fatihgans, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1249,7 +1249,7 @@ case 'antilink':
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Instagram💢',
+                                    displayText: 'Instagram🍻',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
@@ -1259,7 +1259,7 @@ case 'antilink':
                                 }
                             }]
                       fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
-                      let txt = `「 MR ʙᴏᴛ ʙʀᴏᴀᴅᴄᴀꜱᴛ 」\n\n${text}`
+                      let txt = `「 𝑴𝑹 𝑩𝑶𝑻 𝑩𝑹𝑶𝑨𝑫𝑪𝑨𝑺𝑻  」\n\n${text}`
                       XeonBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 		}
 		reply('Broadcast Success')
@@ -1517,15 +1517,15 @@ case 'antilink':
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                     ngen = `
-⭔ Title : ${anu.title}
-⭔ Ext : Search
-⭔ ID : ${anu.videoId}
-⭔ Duration : ${anu.timestamp}
-⭔ Viewers : ${anu.views}
-⭔ Uploaded : ${anu.ago}
-⭔ Author : ${anu.author.name}
-⭔ Channel : ${anu.author.url}
-⭔ Description : ${anu.description}
+💫 Title : ${anu.title}
+💫 Ext : Search
+💫 ID : ${anu.videoId}
+💫 Duration : ${anu.timestamp}
+💫 Viewers : ${anu.views}
+💫 Uploaded : ${anu.ago}
+💫 Author : ${anu.author.name}
+💫 Channel : ${anu.author.url}
+💫 Description : ${anu.description}
 `
 message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { upload:   XeonBotInc.waUploadToServer })
                 template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1536,7 +1536,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                             hydratedFooterText: `Playing To ${text}`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '🌝Video Source Link🌝',
+                                    displayText: '🖇️Video Source Link🖇️',
                                     url: `${anu.url}`
                                 }
                             }, {
@@ -2171,7 +2171,7 @@ View list of message with ${prefix}listmsg`)
 				let buttons = [{
                                 urlButton: {
                                     displayText: 'Report Bug🐛',
-                                    url: 'https://wa.me/916909137213?text=hello+bro+i+found+a+bug+in+your+bot'
+                                    url: 'https://wa.me/918590822912?text=hello+bro+i+found+a+bug+in+your+bot'
                                 }
                             }, {
                                 quickReplyButton: {
