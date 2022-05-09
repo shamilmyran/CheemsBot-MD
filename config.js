@@ -24,9 +24,9 @@ global.APIKeys = {
 //═══════[modification]════════\\
 global.owner = ['918590822912',''] //owner number, u can put multiple owner number, within quotations and seperated by comma.
 global.pemilik = ['918590822912'] // owner number
-global.premium = ['916909137213'] //premium number
+global.premium = ['918590822912'] //premium number
 global.pengguna = 'ᴍᴜɴᴀᴠɪʀ' //username
-global.botnma = 'MR ʙᴏᴛ' //bot name
+global.botnma = 'MR BOT' //bot name
 global.ownernma = 'ᴍᴜɴᴀᴠɪʀ🥰' //owner name
 global.packname = 'MR Bot' //sticker package name
 global.author = 'ᴍᴜɴᴀᴠɪʀ' //sticker author name
@@ -34,14 +34,14 @@ global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
 global.sp = '⭔' //design
 global.mess = {
-    success: 'Done ✓',
+    success: '𝐃𝐨𝐧𝐞  ✓',
     admin: 'This Feature Is Only For Admin!',
     botAdmin: 'Bot Must Be Admin First!',
     owner: 'This Feature Is Only For Owner',
     group: 'Feature Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature in only for the bot number',
-    wait: 'ᴡᴀɪᴛ ʟᴏᴀᴅɪɴɢ....',
+    wait: '𝐖𝐚𝐢𝐭 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 ....',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
 global.limitawal = {
