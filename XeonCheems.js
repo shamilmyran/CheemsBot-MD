@@ -100,11 +100,11 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 	
 //[target]\\
 	const reply = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` 𝑴𝑹 𝑩𝑶𝑻`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "http://instagram.com/_munavir._"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` ᶜᴼᴺᵀᴬᶜᵀ ᴼᵂᴺᴱᴿ👻`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "http://wa.me/918590822912?text=𝙷𝚎𝚕𝚕𝚘%20𝚖𝚞𝚗𝚊𝚟𝚒𝚛%20𝚋𝚛𝚘%20😊"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` ᶠᴼᴸᴸᴼᵂ ᴹᵞ ᴵᴺˢᵀᴬᴳᴿᴬᴹ`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "http://instagram.com/_munavir._"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` ᶠᴼᴸᴸᴼᵂ ᴹᵞ ᴵᴺˢᵀᴬᴳᴿᴬᴹ💫`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "http://instagram.com/_munavir._"}}}, { quoted: m})
         }
 try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -590,11 +590,11 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
 	    case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f392cfd9bdff15bc9be64.jpg' }, caption: `*Hi bro ${m.pushName}*\n\n Bot Rental Price\n⭔ 250INR Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/918590822912 (Owner)\n\nDonate Me : \n\n⭔ Fampay : https://telegra.ph/file/f392cfd9bdff15bc9be64.jpg\n⭔ Paytm no  : 8590822912` }, { quoted: m })
+                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a1a92cea068c2b5c2e735.jpg' }, caption: `*Hi bro ${m.pushName}*\n𝚌𝚘𝚗𝚝𝚊𝚌𝚝 𝚘𝚠𝚗𝚎𝚛📍\nhttps://wa.me/918590822912 (ī.am/ꪶᴍᴜɴᴀᴠɪʀ)\n\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
-                reply('Script : 𝐁𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭 𝐧𝐨𝐭 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞  \n \n\n :  \n ')
+                reply('')
             }
             break
             case 'chat': {
@@ -886,7 +886,7 @@ break
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
-let teks = `══✪〘 *👥 𝑻𝒂𝒈 𝑨𝒍𝒍 🍻* 〙✪══
+let teks = `══✪〘 *𝚃𝙰𝙶 𝙰𝙻𝙻 🍻* 〙✪══
  
  ➲ *Message : ${q ? q : 'blank'}*\n\n`
                 for (let mem of participants) {
@@ -909,7 +909,7 @@ let teks = `══✪〘 *👥 𝑻𝒂𝒈 𝑨𝒍𝒍 🍻* 〙✪══
                 let anu = await styletext(text)
                 let teks = `Entered Text:  ${text}\n\n`
                 for (let i of anu) {
-                    teks += `⭔ *${i.name}* : ${i.result}\n\n`
+                    teks += `💫 *${i.name}* : ${i.result}\n\n`
                 }
                 reply(teks)
 	    }
@@ -1200,7 +1200,7 @@ case 'antilink':
             break
             case 'bcgc': case 'bcgroup': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} hello guys,ᴍᴜɴᴀᴠɪʀ back`
+                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} hello guys, am back`
                 let getGroups = await XeonBotInc.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
@@ -1209,13 +1209,13 @@ case 'antilink':
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Instagram🍻',
-                                    url: 'http://instagram.com/_munavir._'
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
+                                    url: 'http://wa.me/918590822912'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number👤',
-                                    phoneNumber: '+91 859-0822-912'
+                                    phoneNumber: '+91 690-9137-213'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1224,7 +1224,7 @@ case 'antilink':
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: 'owner'
                                 }  
                             }, {
@@ -1234,7 +1234,7 @@ case 'antilink':
                                 }
                             }]
                       fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
-                      let txt = `「 𝑴𝑹 𝑩𝑶𝑻 𝑩𝑹𝑶𝑨𝑫𝑪𝑨𝑺𝑻  」\n\n${text}`
+                      let txt = `「 Cheems Bot Broadcast 」\n\n${text}`
                       XeonBotInc.send5ButImg(i, txt, XeonBotInc.user.name, fatihgans, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1249,17 +1249,17 @@ case 'antilink':
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Instagram🍻',
-                                    url: 'http://instagram.com/_munavir._'
+                                    displayText: 'ꜱᴄʀɪᴩᴛ',
+                                    url: 'http://wa.me/918590822912'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: 'owner'
                                 }
                             }]
                       fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
-                      let txt = `「 𝑴𝑹 𝑩𝑶𝑻 𝑩𝑹𝑶𝑨𝑫𝑪𝑨𝑺𝑻  」\n\n${text}`
+                      let txt = `「 Cheems Bot Broadcast 」\n\n${text}`
                       XeonBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 		}
 		reply('Broadcast Success')
@@ -1536,16 +1536,16 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                             hydratedFooterText: `Playing To ${text}`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '🖇️Video Source Link🖇️',
+                                    displayText: '🌠ᴠɪᴅᴇᴏ ꜱᴏᴜʀᴄᴇ ʟɪɴᴋ🌠',
                                     url: `${anu.url}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎵Audio🎵',
+                                    displayText: '🎵ᴀᴜᴅɪᴏ🎵',
                                     id: `ytmp3 ${anu.url} 320kbps`
                                     }
                                 },{quickReplyButton: {
-                                    displayText: '🎥VIdeo🎥',
+                                    displayText: '🎥ᴠɪᴅᴇᴏ🎥',
                                     id: `ytmp4 ${anu.url} 360p`
                                 }
                             }]
@@ -2171,7 +2171,7 @@ View list of message with ${prefix}listmsg`)
 				let buttons = [{
                                 urlButton: {
                                     displayText: 'Report Bug🐛',
-                                    url: 'https://wa.me/918590822912?text=hello+bro+i+found+a+bug+in+your+bot'
+                                    url: 'https://wa.me/916909137213?text=hello+bro+i+found+a+bug+in+your+bot'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2375,38 +2375,38 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                     }
                     break 
 case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
-                anu = `𝑯𝒆𝒍𝒍𝒐  ${pushname}
-𝑴𝑹 𝑩𝑶𝑻 𝑯𝑬𝑹𝑬 🤗🤚`
+                anu = `𝙷𝚎𝚕𝚕𝚘😊 ${pushname}
+𝙼𝚁-𝚖𝚍 𝙱𝚘𝚝 𝚑𝚎𝚛𝚎 📍`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `𝑴𝑹 𝑩𝑶𝑻`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Owner📍',
-                                    url: 'http://wa.me/918590822912'
-                                }
-                            }, {
-                            	urlButton: {
-                                displayText: 'Instagram🔖',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
+                            	urlButton: {
+                                displayText: 'ꜱᴄʀɪᴩᴛ',
+                                    url: 'http://wa.me/918590822912'
+                                }
+                            }, {
                                 quickReplyButton: {
-                                    displayText: '💫All Menu💫',
+                                    displayText: 'ᴀʟʟ ᴍᴇɴᴜ',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍻List Menu🍻',
+                                    displayText: 'ʟɪꜱᴛ ᴍᴇɴᴜ',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2427,46 +2427,46 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `𝑯𝒆𝒍𝒍𝒐🤚 ${pushname}
-𝑯𝒆𝒍𝒍𝒐 𝒉𝒐𝒘 𝒂𝒓𝒆 𝒚𝒐𝒖 😉
+                            hydratedFooterText: `𝙷𝚎𝚕𝚕𝚘 😊 ${pushname}
+𝙷𝙴𝙻𝙻𝙾 𝙷𝙾𝚆 𝙰𝚁𝙴 𝚈𝙾𝚄 📍
 
 
-❏「 INFO BOT 」
+❏「 𝙸𝙽𝙵𝙾 𝙱𝙾𝚃 」
 
-𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botnma}
-𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownernma}
-𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
-𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+🎈𝚂𝙿𝙴𝙴𝙳 : ${latensie.toFixed(4)} miliseconds
+🎈𝚁𝚄𝙽𝚃𝙸𝙼𝙴 : ${runtime(process.uptime())}
+🎈𝙱𝙾𝚃 𝙽𝙰𝙼𝙴 : ${global.botnma}
+🎈𝙾𝚆𝙽𝙴𝚁 𝙽𝙰𝙼𝙴 : ${global.ownernma}
+🎈𝙾𝚆𝙽𝙴𝚁 𝙽𝚄𝙼𝙱𝙴𝚁 : ${global.owner}
+🎈𝙷𝙾𝚂𝚃 𝙽𝙰𝙼𝙴 : ${os.hostname()}
+🎈𝙿𝙻𝙰𝚃𝙵𝙾𝚁𝙼 : ${os.platform()}
 
 
-𝑷𝒍𝒆𝒂𝒔𝒆 𝑺𝒆𝒍𝒆𝒄𝒕 𝑩𝒖𝒕𝒕𝒐𝒏 𝑩𝒆𝒍𝒐𝒘
+𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙻𝙴𝙲𝚃 𝚃𝙷𝙴 𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙾𝚆📍
 `,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram📍',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Script🖇️',
+                                displayText: 'ꜱᴄʀɪᴩᴛ',
                                     url: 'http://wa.me/918590822912'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✨All Menu✨',
+                                    displayText: 'ᴀʟʟ ᴍᴇɴᴜ',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '😊List Menu😊',
+                                    displayText: 'ʟɪꜱᴛ ᴍᴇɴᴜ',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2479,10 +2479,10 @@ break
 case 'command':{
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `𝑯𝒆𝒍𝒍𝒐  ${pushname}`,
-                    description: `𝑷𝒍𝒆𝒂𝒔𝒆 𝑪𝒉𝒐𝒐𝒔𝒆 𝑻𝒉𝒆 𝑴𝒆𝒏𝒖\n\n`,
+                    title: `Hi ${pushname}`,
+                    description: `Please Choose The Menu\n\n`,
                     buttonText: "Menu",
-                    footerText: "_𝑴𝑹 𝑩𝑶𝑻😈_",
+                    footerText: "_ī.am/ꪶᴍᴜɴᴀᴠɪʀ☆_",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Group Features",
@@ -2595,17 +2595,17 @@ case 'grupmenu': {
 	            anu = `
   *Group Menu*
   
-  ➙ ${prefix}grouplink
-  ➙ ${prefix}ephemeral [option]
-  ➙ ${prefix}setgrouppp
-  ➙ ${prefix}setname [text]
-  ➙ ${prefix}group [option]
-  ➙ ${prefix}editinfo [option]
-  ➙ ${prefix}grupinfo
-  ➙ ${prefix}add @user
-  ➙ ${prefix}kick @user
-  ➙ ${prefix}promote @user
-  ➙ ${prefix}demote @user
+  🔖 ${prefix}grouplink
+  🔖 ${prefix}ephemeral [option]
+  🔖 ${prefix}setgrouppp
+  🔖 ${prefix}setname [text]
+  🔖 ${prefix}group [option]
+  🔖 ${prefix}editinfo [option]
+  🔖 ${prefix}grupinfo
+  🔖 ${prefix}add @user
+  🔖 ${prefix}kick @user
+  🔖 ${prefix}promote @user
+  🔖 ${prefix}demote @user
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2613,15 +2613,15 @@ case 'grupmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram📍',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2635,19 +2635,19 @@ case 'downloadmenu': {
 	okemenu = `
 	*Downloader Menu*
   
-  ➙ ${prefix}tiktoknowm [url]
-  ➙ ${prefix}tiktokwm [url]
-  ➙ ${prefix}tiktokmp3 [url]
-  ➙ ${prefix}instagram [url]
-  ➙ ${prefix}ig2 [url]
-  ➙ ${prefix}igreels [url]
-  ➙ ${prefix}igtv [url]
-  ➙ ${prefix}twitter [url]
-  ➙ ${prefix}twittermp3 [url]
-  ➙ ${prefix}ytmp3 [url]
-  ➙ ${prefix}ytmp4 [url]
-  ➙ ${prefix}getmusic [query]
-  ➙ ${prefix}getvideo [query
+  🔖 ${prefix}tiktoknowm [url]
+  🔖 ${prefix}tiktokwm [url]
+  🔖 ${prefix}tiktokmp3 [url]
+  🔖 ${prefix}instagram [url]
+  🔖 ${prefix}ig2 [url]
+  🔖 ${prefix}igreels [url]
+  🔖 ${prefix}igtv [url]
+  🔖 ${prefix}twitter [url]
+  🔖 ${prefix}twittermp3 [url]
+  🔖 ${prefix}ytmp3 [url]
+  🔖 ${prefix}ytmp4 [url]
+  🔖 ${prefix}getmusic [query]
+  🔖 ${prefix}getvideo [query
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2655,15 +2655,15 @@ case 'downloadmenu': {
                             hydratedContentText: okemenu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR Bot-MD`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram📍',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2677,14 +2677,14 @@ case 'downloadmenu': {
             	anu = `
               *Search Menu*
   
-  ➙ ${prefix}play [query]
-  ➙ ${prefix}yts [query]
-  ➙ ${prefix}google [query]
-  ➙ ${prefix}gimage [query]
-  ➙ ${prefix}pinterest [query]
-  ➙ ${prefix}wallpaper [query]
-  ➙ ${prefix}wikimedia [query]
-  ➙ ${prefix}ytsearch [query]
+  🔖 ${prefix}play [query]
+  🔖 ${prefix}yts [query]
+  🔖 ${prefix}google [query]
+  🔖 ${prefix}gimage [query]
+  🔖 ${prefix}pinterest [query]
+  🔖 ${prefix}wallpaper [query]
+  🔖 ${prefix}wikimedia [query]
+  🔖 ${prefix}ytsearch [query]
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2692,16 +2692,15 @@ case 'downloadmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR Bot-MD`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram📍',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
-					
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2715,8 +2714,8 @@ case 'randommenu': {
 	anu = `
 	*Random Menu*
   
-  ➙ ${prefix}coffee
-  ➙ ${prefix}couplepp
+  🔖 ${prefix}coffee
+  🔖 ${prefix}couplepp
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2724,15 +2723,15 @@ case 'randommenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram📍',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2746,9 +2745,9 @@ case 'funmenu': {
 	anu = `
 	*Fun Menu*
   
-  ➙ ${prefix}couple
-  ➙ ${prefix}mysoulmate
-  ➙ ${prefix}math [mode] 
+  🔖 ${prefix}couple
+  🔖 ${prefix}mysoulmate
+  🔖 ${prefix}math [mode] 
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2756,15 +2755,15 @@ case 'funmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram📍',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2778,17 +2777,17 @@ case 'voicemenu': {
 	anu = `
 	*Voice Changer Menu*
 	
-  ➙ ${prefix}bass
-  ➙ ${prefix}blown
-  ➙ ${prefix}deep
-  ➙ ${prefix}earrape
-  ➙ ${prefix}fast
-  ➙ ${prefix}fat
-  ➙ ${prefix}nightcore
-  ➙ ${prefix}reverse
-  ➙ ${prefix}robot
-  ➙ ${prefix}slow
-  ➙ ${prefix}squirrel
+  🔖 ${prefix}bass
+  🔖 ${prefix}blown
+  🔖 ${prefix}deep
+  🔖 ${prefix}earrape
+  🔖 ${prefix}fast
+  🔖 ${prefix}fat
+  🔖 ${prefix}nightcore
+  🔖 ${prefix}reverse
+  🔖 ${prefix}robot
+  🔖 ${prefix}slow
+  🔖 ${prefix}squirrel
 `
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2796,18 +2795,15 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram📍',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
-					
-					
-					
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2822,26 +2818,26 @@ case 'religionmenukdksoejdjj': {
 	*Religion Menu*
 	
      (Islamic)
-  ➙ ${prefix}iqra
-  ➙ ${prefix}hadith
-  ➙ ${prefix}alquran
-  ➙ ${prefix}juzamma
-  ➙ ${prefix}tafsirsurah`
+  🔖 ${prefix}iqra
+  🔖 ${prefix}hadith
+  🔖 ${prefix}alquran
+  🔖 ${prefix}juzamma
+  🔖 ${prefix}tafsirsurah`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ_`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram✨',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2855,51 +2851,51 @@ case 'horoscopemenukcodk': {
 	anu = `
 	*Horoscope Menu*
   
-  ➙ ${prefix}hockeynumber
-  ➙ ${prefix}dreammeaning
-  ➙ ${prefix}namemeaning
-  ➙ ${prefix}fortunetelling
-  ➙ ${prefix}marriageprediction
-  ➙ ${prefix}wife&husband
-  ➙ ${prefix}fortunetelling2
-  ➙ ${prefix}matchname
-  ➙ ${prefix}couplematch
-  ➙ ${prefix}married
-  ➙ ${prefix}businessnature
-  ➙ ${prefix}sustenance
-  ➙ ${prefix}profession
-  ➙ ${prefix}fate
-  ➙ ${prefix}potentialdisease
-  ➙ ${prefix}tarot
-  ➙ ${prefix}fengshui
-  ➙ ${prefix}goodday
-  ➙ ${prefix}badday
-  ➙ ${prefix}unluckyday
-  ➙ ${prefix}dragonday
-  ➙ ${prefix}sustenance2
-  ➙ ${prefix}luck
-  ➙ ${prefix}weton
-  ➙ ${prefix}character
-  ➙ ${prefix}luck2
-  ➙ ${prefix}fishing
-  ➙ ${prefix}fertiletime
-  ➙ ${prefix}zodiac
-  ➙ ${prefix}shio`
+  🔖 ${prefix}hockeynumber
+  🔖 ${prefix}dreammeaning
+  🔖 ${prefix}namemeaning
+  🔖 ${prefix}fortunetelling
+  🔖 ${prefix}marriageprediction
+  🔖 ${prefix}wife&husband
+  🔖 ${prefix}fortunetelling2
+  🔖 ${prefix}matchname
+  🔖 ${prefix}couplematch
+  🔖 ${prefix}married
+  🔖 ${prefix}businessnature
+  🔖 ${prefix}sustenance
+  🔖 ${prefix}profession
+  🔖 ${prefix}fate
+  🔖 ${prefix}potentialdisease
+  🔖 ${prefix}tarot
+  🔖 ${prefix}fengshui
+  🔖 ${prefix}goodday
+  🔖 ${prefix}badday
+  🔖 ${prefix}unluckyday
+  🔖 ${prefix}dragonday
+  🔖 ${prefix}sustenance2
+  🔖 ${prefix}luck
+  🔖 ${prefix}weton
+  🔖 ${prefix}character
+  🔖 ${prefix}luck2
+  🔖 ${prefix}fishing
+  🔖 ${prefix}fertiletime
+  🔖 ${prefix}zodiac
+  🔖 ${prefix}shio`
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram✨',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2913,15 +2909,15 @@ case 'convertmenu': {
 	anu = `
 	*Convert Menu*
   
-  ➙ ${prefix}toimage
-  ➙ ${prefix}removebg
-  ➙ ${prefix}sticker
-  ➙ ${prefix}emojimix
-  ➙ ${prefix}tovideo
-  ➙ ${prefix}togif
-  ➙ ${prefix}tourl
-  ➙ ${prefix}ebinary
-  ➙ ${prefix}dbinary
+  🔖 ${prefix}toimage
+  🔖 ${prefix}removebg
+  🔖 ${prefix}sticker
+  🔖 ${prefix}emojimix
+  🔖 ${prefix}tovideo
+  🔖 ${prefix}togif
+  🔖 ${prefix}tourl
+  🔖 ${prefix}ebinary
+  🔖 ${prefix}dbinary
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2929,15 +2925,15 @@ case 'convertmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram📍',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2951,17 +2947,17 @@ case 'nocategorymenu': {
 	anu = `
 	*Misc Menu*
   
-  ➙ ${prefix}ping
-  ➙ ${prefix}owner
-  ➙ ${prefix}donate
-  ➙ ${prefix}menu / ${prefix}help / ${prefix}?
-  ➙ ${prefix}delete
-  ➙ ${prefix}chatinfo
-  ➙ ${prefix}quoted
-  ➙ ${prefix}listpc
-  ➙ ${prefix}listgc
-  ➙ ${prefix}listonline
-  ➙ ${prefix}report (report bug to owner)
+  🔖 ${prefix}ping
+  🔖 ${prefix}owner
+  🔖 ${prefix}donate
+  🔖 ${prefix}menu / ${prefix}help / ${prefix}?
+  🔖 ${prefix}delete
+  🔖 ${prefix}chatinfo
+  🔖 ${prefix}quoted
+  🔖 ${prefix}listpc
+  🔖 ${prefix}listgc
+  🔖 ${prefix}listonline
+  🔖 ${prefix}report (report bug to owner)
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2969,15 +2965,15 @@ case 'nocategorymenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram📍',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2991,14 +2987,14 @@ case 'databasemenu': {
 	anu = `
 	*Database Menu*
   
-  ➙ ${prefix}setcmd
-  ➙ ${prefix}listcmd
-  ➙ ${prefix}delcmd
-  ➙ ${prefix}lockcmd
-  ➙ ${prefix}addmsg
-  ➙ ${prefix}listmsg
-  ➙ ${prefix}getmsg
-  ➙ ${prefix}delmsg
+  🔖 ${prefix}setcmd
+  🔖 ${prefix}listcmd
+  🔖 ${prefix}delcmd
+  🔖 ${prefix}lockcmd
+  🔖 ${prefix}addmsg
+  🔖 ${prefix}listmsg
+  🔖 ${prefix}getmsg
+  🔖 ${prefix}delmsg
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3006,15 +3002,15 @@ case 'databasemenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram📍',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3028,9 +3024,9 @@ case 'anonymouschatmenu': {
 	anu = `
 	*Anonymous Menu*
 	
-  ➙ ${prefix}start ( Start Chat )
-  ➙ ${prefix}next ( Next user )
-  ➙ ${prefix}stop ( stop Anonymous chat )
+  🔖 ${prefix}start ( Start Chat )
+  🔖 ${prefix}next ( Next user )
+  🔖 ${prefix}stop ( stop Anonymous chat )
 	`
 	  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3038,15 +3034,15 @@ case 'anonymouschatmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram📍',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3060,9 +3056,9 @@ case 'sistemmenu': {
 	anu = `
 	*System Menu*
 	
-  ➙ ${prefix}antilink On/Off
-  ➙ ${prefix}mute On/Off
-  ➙ ${prefix}antiwame On/Off
+  🔖 ${prefix}antilink On/Off
+  🔖 ${prefix}mute On/Off
+  🔖 ${prefix}antiwame On/Off
 `
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3070,15 +3066,15 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram📍',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3092,14 +3088,14 @@ break
   	anu = `
   *Owner Menu*
   
-  ➙ ${prefix}chat [option]
-  ➙ ${prefix}join [link]
-  ➙ ${prefix}leave
-  ➙ ${prefix}setbotpp
-  ➙ ${prefix}block @user
-  ➙ ${prefix}unblock @user
-  ➙ ${prefix}bcgroup
-  ➙ ${prefix}bcall
+  🔖 ${prefix}chat [option]
+  🔖 ${prefix}join [link]
+  🔖 ${prefix}leave
+  🔖 ${prefix}setbotpp
+  🔖 ${prefix}block @user
+  🔖 ${prefix}unblock @user
+  🔖 ${prefix}bcgroup
+  🔖 ${prefix}bcall
   `
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3107,15 +3103,15 @@ break
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram✨',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3127,136 +3123,136 @@ break
 break
   case 'allmenu': {
   	anu = `
-  *𝑨𝒍𝒍 𝒎𝒆𝒏𝒖*
+  *All Menu*
   
-    ɢʀᴏᴜᴩ ᴍᴇɴᴜ
-  ➙ ${prefix}grouplink
-  ➙ ${prefix}ephemeral [option]
-  ➙ ${prefix}setgrouppp
-  ➙ ${prefix}setname [text]
-  ➙ ${prefix}group [option]
-  ➙ ${prefix}editinfo [option]
-  ➙ ${prefix}grupinfo
-  ➙ ${prefix}add @user
-  ➙ ${prefix}kick @user
-  ➙ ${prefix}promote @user
-  ➙ ${prefix}demote @user
+  📍Group Menu📍
+  🔖 ${prefix}grouplink
+  🔖 ${prefix}ephemeral [option]
+  🔖 ${prefix}setgrouppp
+  🔖 ${prefix}setname [text]
+  🔖 ${prefix}group [option]
+  🔖 ${prefix}editinfo [option]
+  🔖 ${prefix}grupinfo
+  🔖 ${prefix}add @user
+  🔖 ${prefix}kick @user
+  🔖 ${prefix}promote @user
+  🔖 ${prefix}demote @user
   
-    ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ
-  ➙ ${prefix}tiktoknowm [url]
-  ➙ ${prefix}tiktokwm [url]
-  ➙ ${prefix}tiktokmp3 [url]
-  ➙ ${prefix}instagram [url]
-  ➙ ${prefix}ig2 [url]
-  ➙ ${prefix}igreels [url]
-  ➙ ${prefix}igtv [url]
-  ➙ ${prefix}twitter [url]
-  ➙ ${prefix}twittermp3 [url]
-  ➙ ${prefix}ytmp3 [url]
-  ➙ ${prefix}ytmp4 [url]
-  ➙ ${prefix}getmusic [query]
-  ➙ ${prefix}getvideo [query
+  📍Download Menu📍
+  🔖 ${prefix}tiktoknowm [url]
+  🔖 ${prefix}tiktokwm [url]
+  🔖 ${prefix}tiktokmp3 [url]
+  🔖 ${prefix}instagram [url]
+  🔖 ${prefix}ig2 [url]
+  🔖 ${prefix}igreels [url]
+  🔖 ${prefix}igtv [url]
+  🔖 ${prefix}twitter [url]
+  🔖 ${prefix}twittermp3 [url]
+  🔖 ${prefix}ytmp3 [url]
+  🔖 ${prefix}ytmp4 [url]
+  🔖 ${prefix}getmusic [query]
+  🔖 ${prefix}getvideo [query
   
-    ꜱᴇᴀʀᴄʜ ᴍᴇɴᴜ
-  ➙ ${prefix}play [query]
-  ➙ ${prefix}yts [query]
-  ➙ ${prefix}google [query]
-  ➙ ${prefix}gimage [query]
-  ➙ ${prefix}pinterest [query]
-  ➙ ${prefix}wallpaper [query]
-  ➙ ${prefix}wikimedia [query]
-  ➙ ${prefix}ytsearch [query]
+  📍Search Menu📍
+  🔖 ${prefix}play [query]
+  🔖 ${prefix}yts [query]
+  🔖 ${prefix}google [query]
+  🔖 ${prefix}gimage [query]
+  🔖 ${prefix}pinterest [query]
+  🔖 ${prefix}wallpaper [query]
+  🔖 ${prefix}wikimedia [query]
+  🔖 ${prefix}ytsearch [query]
   
-    ʀᴀɴᴅᴏᴍ ᴍᴇɴᴜ
-  ➙ ${prefix}coffee
-  ➙ ${prefix}couplepp
+  📍Random Menu📍
+  🔖 ${prefix}coffee
+  🔖 ${prefix}couplepp
   
-    ꜰᴜɴ ᴍᴇɴᴜ
-  ➙ ${prefix}couple
-  ➙ ${prefix}mysoulmate
-  ➙ ${prefix}math [mode]  
+  📍Fun Menu📍
+  🔖 ${prefix}couple
+  🔖 ${prefix}mysoulmate
+  🔖 ${prefix}math [mode]  
   
-     ᴠᴏɪᴄᴇ ᴄʜᴀɴɢᴇʀ ᴍᴇɴᴜ
-  ➙ ${prefix}bass
-  ➙ ${prefix}blown
-  ➙ ${prefix}deep
-  ➙ ${prefix}earrape
-  ➙ ${prefix}fast
-  ➙ ${prefix}fat
-  ➙ ${prefix}nightcore
-  ➙ ${prefix}reverse
-  ➙ ${prefix}robot
-  ➙ ${prefix}slow
-  ➙ ${prefix}squirrel
+  📍Voice Changer Menu📍
+  🔖 ${prefix}bass
+  🔖 ${prefix}blown
+  🔖 ${prefix}deep
+  🔖 ${prefix}earrape
+  🔖 ${prefix}fast
+  🔖 ${prefix}fat
+  🔖 ${prefix}nightcore
+  🔖 ${prefix}reverse
+  🔖 ${prefix}robot
+  🔖 ${prefix}slow
+  🔖 ${prefix}squirrel
    
-    ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ
-  ➙ ${prefix}toimage
-  ➙ ${prefix}removebg
-  ➙ ${prefix}sticker
-  ➙ ${prefix}emojimix
-  ➙ ${prefix}tovideo
-  ➙ ${prefix}togif
-  ➙ ${prefix}tourl
-  ➙ ${prefix}ebinary
-  ➙ ${prefix}dbinary
+  📍Convert Menu📍
+  🔖 ${prefix}toimage
+  🔖 ${prefix}removebg
+  🔖 ${prefix}sticker
+  🔖 ${prefix}emojimix
+  🔖 ${prefix}tovideo
+  🔖 ${prefix}togif
+  🔖 ${prefix}tourl
+  🔖 ${prefix}ebinary
+  🔖 ${prefix}dbinary
   
-    ᴍɪꜱᴄ ᴍᴇɴᴜ
-  ➙ ${prefix}ping
-  ➙ ${prefix}owner
-  ➙ ${prefix}donate
-  ➙ ${prefix}menu / ${prefix}help / ${prefix}?
-  ➙ ${prefix}delete
-  ➙ ${prefix}chatinfo
-  ➙ ${prefix}quoted
-  ➙ ${prefix}listpc
-  ➙ ${prefix}listgc
-  ➙ ${prefix}listonline
-  ➙ ${prefix}report (report bug to owner)
+  📍Misc Menu📍
+  🔖 ${prefix}ping
+  🔖 ${prefix}owner
+  🔖 ${prefix}donate
+  🔖 ${prefix}menu / ${prefix}help / ${prefix}?
+  🔖 ${prefix}delete
+  🔖 ${prefix}chatinfo
+  🔖 ${prefix}quoted
+  🔖 ${prefix}listpc
+  🔖 ${prefix}listgc
+  🔖 ${prefix}listonline
+  🔖 ${prefix}report (report bug to owner)
   
-    ᴅᴀᴛᴀʙᴀꜱᴇ ᴍᴇɴᴜ
-  ➙ ${prefix}setcmd
-  ➙ ${prefix}listcmd
-  ➙ ${prefix}delcmd
-  ➙ ${prefix}lockcmd
-  ➙ ${prefix}addmsg
-  ➙ ${prefix}listmsg
-  ➙ ${prefix}getmsg
-  ➙ ${prefix}delmsg
+  📍Database Menu📍
+  🔖 ${prefix}setcmd
+  🔖 ${prefix}listcmd
+  🔖 ${prefix}delcmd
+  🔖 ${prefix}lockcmd
+  🔖 ${prefix}addmsg
+  🔖 ${prefix}listmsg
+  🔖 ${prefix}getmsg
+  🔖 ${prefix}delmsg
   
-    ᴀɴᴏɴyᴍᴏᴜꜱ ᴍᴇɴᴜ
-  ➙ ${prefix}start ( Start Chat )
-  ➙ ${prefix}next ( Next user )
-  ➙ ${prefix}stop ( stop Anonymous chat )
+  📍Anonymous Menu📍
+  🔖 ${prefix}start ( Start Chat )
+  🔖 ${prefix}next ( Next user )
+  🔖 ${prefix}stop ( stop Anonymous chat )
   
-    ꜱyꜱᴛᴇᴍ ᴍᴇɴᴜ
-  ➙ ${prefix}antilink On/Off
-  ➙ ${prefix}mute On/Off
-  ➙ ${prefix}antiwame On/Off
+  📍System Menu📍
+  🔖 ${prefix}antilink On/Off
+  🔖 ${prefix}mute On/Off
+  🔖 ${prefix}antiwame On/Off
   
-    ᴏᴡɴᴇʀ ᴍᴇɴᴜ
-  ➙ ${prefix}chat [option]
-  ➙ ${prefix}join [link]
-  ➙ ${prefix}leave
-  ➙ ${prefix}setbotpp
-  ➙ ${prefix}block @user
-  ➙ ${prefix}unblock @user
-  ➙ ${prefix}bcgroup
-  ➙ ${prefix}bcall`
+  📍Owner Menu📍
+  🔖 ${prefix}chat [option]
+  🔖 ${prefix}join [link]
+  🔖 ${prefix}leave
+  🔖 ${prefix}setbotpp
+  🔖 ${prefix}block @user
+  🔖 ${prefix}unblock @user
+  🔖 ${prefix}bcgroup
+  🔖 ${prefix}bcall`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `MR ʙᴏᴛ✨`,
+                            hydratedFooterText: `𝙼𝚁-𝙼𝙳 𝙱𝙾𝚃`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram🥰',
+                                    displayText: 'ɪɴꜱᴛᴀɢʀᴀᴍ',
                                     url: 'http://instagram.com/_munavir._'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'ᴏᴡɴᴇʀ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3267,11 +3263,11 @@ break
             }
 break
 case 'tqtt': 
-reply(`𝑴𝑹 𝑩𝑶𝑻😈
-𝑴𝒖𝒏𝒂𝒗𝒊𝒓 🤗
- http://wa.me/918590822912 ✨   
+reply(`Thanks to
+𝚃𝚑𝚊𝚗𝚔𝚜 𝚝𝚘 𝚊𝚕𝚕 🤗
 
-𝑴𝑹 𝑩𝑶𝑻 ᳀ !!!`)
+
+`)
 break
             default:
                 if (budy.startsWith('=>')) {
